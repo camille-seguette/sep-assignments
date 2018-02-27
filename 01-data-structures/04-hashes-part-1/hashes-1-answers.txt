@@ -1,0 +1,6 @@
+Explain why doubling the size of the underlying array of your HashClass may be a poor idea.
+
+Doubling the size of the underlying array, as opposed to increasing it by the 2nd power, can
+potentially be bad because it creates more extra space for the algorithm to sift through
+which will lead to longer time spent running the code, and it separates each individual item
+farther from each other than is necessary, also causing it to take longer to run.
